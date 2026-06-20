@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HeartSpace - A Place to Let It Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💔 HeartSpace</h1>
+    <p>A safe place to ask, rant, heal, and be heard.</p>
+</header>
+
+
+<section class="post-box">
+
+    <input id="name" placeholder="Your name (optional)">
+
+    <select id="mood">
+        <option>💔 Heartbroken</option>
+        <option>😔 Sad</option>
+        <option>😡 Angry</option>
+        <option>🫂 Need Advice</option>
+        <option>🌱 Healing</option>
+    </select>
+
+    <textarea id="message" placeholder="Write what's on your heart..."></textarea>
+
+    <button onclick="addPost()">Post</button>
+
+</section>
+
+
+
+<h2>Community Rants</h2>
+
+<div id="posts"></div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

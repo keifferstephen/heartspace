@@ -1,0 +1,141 @@
+*{
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body{
+    margin:0;
+    background:
+    linear-gradient(135deg,#2b0a18,#4b1028,#120812);
+    color:white;
+    min-height:100vh;
+}
+
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+
+header h1{
+    font-size:50px;
+    color:#ff7aa8;
+}
+
+
+header p{
+    color:#ffd6e5;
+}
+
+
+.post-box{
+    width:90%;
+    max-width:600px;
+    margin:auto;
+    background:#ffffff15;
+    padding:25px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+}
+
+
+input, textarea, select{
+    width:100%;
+    margin:10px 0;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+}
+
+
+textarea{
+    height:120px;
+}
+
+
+button{
+    width:100%;
+    padding:14px;
+    background:#ff4f87;
+    border:none;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+
+button:hover{
+    background:#ff236d;
+}
+
+
+h2{
+    text-align:center;
+}
+
+
+#posts{
+    width:90%;
+    max-width:700px;
+    margin:auto;
+}
+
+
+.card{
+    background:#ffffff18;
+    margin:20px 0;
+    padding:20px;
+    border-radius:20px;
+    animation:fade .4s;
+}
+
+
+.card h3{
+    color:#ff9fc1;
+}
+
+
+.card p{
+    line-height:1.5;
+}
+
+
+.reply{
+    margin-top:15px;
+}
+
+
+.reply input{
+    width:75%;
+}
+
+
+.reply button{
+    width:22%;
+}
+
+
+.comment{
+    background:#00000030;
+    padding:10px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:none;
+}
+
+}
