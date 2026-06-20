@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heartspace.github.io/REPOSITORY_NAME/sitemap.xml
